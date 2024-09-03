@@ -8,21 +8,21 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, tempora! Ab placeat debitis nemo labore exercitationem natus.",
+      "I'm a passionate web developer dedicated to creating exceptional digital experiences. I offer web design, frontend and backend development, and website maintenance services. Let's work together to take your project to the next level!",
     href: "",
   },
   {
     num: "02",
     title: "Database Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, tempora! Ab placeat debitis nemo labore exercitationem natus.",
+      "I'm a backend developer specializing in database design and optimization. Need a custom solution to manage your data efficiently? Get in touch!",
     href: "",
   },
   {
     num: "03",
     title: "Systems Analysis and Design",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae, tempora! Ab placeat debitis nemo labore exercitationem natus.",
+      "I am an experienced Systems Analyst and Designer, specializing in analyzing, designing, and optimizing information systems. I create efficient solutions tailored to your business needs.",
     href: "",
   },
 ];

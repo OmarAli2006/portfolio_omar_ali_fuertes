@@ -22,37 +22,16 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
-    title: "project 1",
+    category: "fullstack",
+    title: "Aqua Project",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem error, sed sint tenetur cum ducimus? Assumenda excepturi vero necessitatibus odit nostrum asperiores, aliquid quibusdam aut vitae iure expedita similique natus?",
-    stack: [{ name: "HTML 5" }, { name: "CSS 3" }, { name: "JavaScript" }],
-    image: "/assets/work/thumb1.png",
+      "Aqua project ensures optimal design and safety of HDPE pipe installations through detailed structural analysis, considering factors such as trench conditions, loads, and environmental factors. We provide a comprehensive report summarizing all calculations and results.",
+    stack: [{ name: "ReactJs" }, { name: "TailwindCss" }, { name: "NodeJs" }, { name: "PostgreSQL" }],
+    image: "/assets/work/construction.jpeg",
     live: "",
     github: "",
   },
-  {
-    num: "02",
-    category: "backend",
-    title: "project 2",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem error, sed sint tenetur cum ducimus? Assumenda excepturi vero necessitatibus odit nostrum asperiores, aliquid quibusdam aut vitae iure expedita similique natus?",
-    stack: [{ name: "HTML 5" }, { name: "CSS 3" }, { name: "JavaScript" }],
-    image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
-  },
-  {
-    num: "03",
-    category: "python",
-    title: "project 3",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem error, sed sint tenetur cum ducimus? Assumenda excepturi vero necessitatibus odit nostrum asperiores, aliquid quibusdam aut vitae iure expedita similique natus?",
-    stack: [{ name: "HTML 5" }, { name: "CSS 3" }, { name: "JavaScript" }],
-    image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
-  },
+  
 ];
 
 const Work = () => {
@@ -86,6 +65,12 @@ const Work = () => {
               >
                 {project.category}
               </h2>
+              <h3
+                className="text-[20px] font-bold leading-none text-white
+              group-hover:text-accent transition-all duration-500 capitalize"
+              >
+                {project.title}
+              </h3>
               <p className="text-white/60">{project.description}</p>
               <ul className="flex gap-4">
                 {project.stack.map((item, index) => {

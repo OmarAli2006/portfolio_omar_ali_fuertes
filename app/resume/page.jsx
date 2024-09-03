@@ -17,7 +17,7 @@ import { SiTailwindcss, SiNextdotjs, SiHtml5 } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quisquam officiis nisi in enim nesciunt sequi.",
+    "Passionate about continuous learning and growth.",
   info: [
     {
       fieldName: "Name",
@@ -54,7 +54,7 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My Experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae recusandae voluptates dignissimos facere ipsum saepe quis alias ullam assumenda dicta, quasi eos delectus error ipsa praesentium quaerat in facilis. Ipsam.",
+    "I am an experienced IT Manager, Census Taker, and Freelance Developer. I have managed technology systems, conducted detailed data collection, and developed custom software solutions for various clients. My diverse background allows me to bring a unique perspective to every project.",
   items: [
     {
       company: "Econ Calvo Construction Company",
@@ -83,7 +83,7 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My Education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae recusandae voluptates dignissimos facere ipsum saepe quis alias ullam assumenda dicta, quasi eos delectus error ipsa praesentium quaerat in facilis. Ipsam.",
+    "Computer Science Engineer with a solid foundation in software development, databases, networking, and cybersecurity. Practical experience in developing web solutions and mobile applications using a wide range of technologies, including Java, JavaScript, Python, React, and Node.js.",
   items: [
     {
       institution: "Universidad Autonoma Tomas Frias",
@@ -121,7 +121,7 @@ const education = {
 const skills = {
   title: "My Skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea eius vel quam officia doloribus facilis, harum voluptate et nam at ad ab tenetur placeat non nesciunt incidunt dolorem quis ducimus?",
+    "Full-stack Developer with a strong foundation in Computer Science. Expertise in designing, developing, and deploying end-to-end web applications using modern technologies such as React, Node.js, and MongoDB. Proficient in languages like Java, JavaScript, and Python.",
   skillList: [
     {
       icon: <SiHtml5 />,
